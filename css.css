@@ -1,0 +1,197 @@
+body{
+margin: 0px;
+margin-top: -25px;
+margin-bottom: 0px;
+
+}
+.img-fundo{
+    background-image: url(img/historia-da-musica0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 0px;
+    padding: 0px;
+}
+.img-cartoon{
+    transition: 3s;
+}
+.img-cartoon:hover{
+    transform: rotateY(150deg);
+}
+.cabecalho{
+    display: flex;
+}
+.cabecalho{
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-left: 50px;
+    
+}
+.fita{
+    margin-top: 100px;
+    margin-right: 50px;
+    transform: rotate(45deg);
+    transition: 2s; 
+}
+.fita:hover{
+    transition: 2s;
+    transform: rotate(0deg);
+}
+.container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding-left: 70px;
+  gap: 20px 5%;
+  
+}
+.container{
+    display: inline-grid;
+}
+
+.item{
+    border-radius: 5px;
+    box-shadow: 0 0 10px;
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+    min-width: 320px;
+    margin-bottom: 50px;
+}
+.item:hover{
+    transition: 2s;
+    background-color:rgba(185, 139, 205, 0.8);
+}
+
+.banner img{
+    width: 100vh;
+    height: 100vh;
+    
+}
+
+.item-text{
+    color: white;
+    background-color:rgb(183, 107, 195,0.5);
+    box-shadow: 0 0 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.item-text:hover{
+    transition: 1s;
+    background-color: blueviolet;
+   
+}
+.nav{
+    display: flex;
+    box-shadow: 0 0 10px;
+}
+.nav{
+    font-size: 20px;
+    flex-direction: row;
+    justify-content: center;
+    background-color:rgb(183, 107, 195,0.5);
+    color: white;
+    padding-top: 30px; 
+}
+
+.letreiro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px;
+}
+.item-nav{
+    padding: 10px;
+    margin-bottom: 10px;
+    padding-right: 5px;
+    
+}
+
+
+.item-nav:hover{
+    background-color: rgb(138, 43, 226,0.10);
+    transition: 2s;
+    box-shadow: 0 0 10px;
+    border-radius: 10px;
+}
+.item-nav a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+  
+
+h1{
+    color: aliceblue;
+    font-size: 60px;
+    font-family: monospace;
+    background-color:rgb(183, 107, 195,0.5);;
+    padding-top: 0px;
+    padding-left: 10px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+    box-shadow: 10px 0px 10px;
+    
+}
+p{
+    color: aliceblue;
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 5px;
+    margin-top: 0px;
+    border-radius: 5px;
+    box-shadow: 10px 0 10px;
+    background-color:rgb(183, 107, 195,0.5);
+    font-size: 30px;
+    font-family: monospace;
+    border-right: 4px solid;
+    width: 19ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(19),
+    blinking 0.5s infinite step-end alternate;
+}
+@keyframes typing {
+    from{
+        width: 0;
+    }
+}
+@keyframes blinking{
+    50%{
+        border-color: transparent;
+    }
+}
+footer{
+    padding: 15px;
+    background-color:rgb(183, 107, 195,0.5);
+    box-shadow: 0 0 5px;
+    color: white;
+}
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+footer img{
+    width: 30px;
+    height: 30px;
+    transition: width 2s;
+}
+footer img:hover{
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 0 10px;
+    border-radius: 50%;
+}
+footer img{
+    transition: width 1s, height 2s;
+}
+.copy{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
